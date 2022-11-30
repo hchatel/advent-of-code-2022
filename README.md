@@ -11,15 +11,9 @@ Ce template vous permet de répondre aux énigmes en :
 
 ## Initialisation
 
+- Forkez le projet
 - Récupérez le template localement
-
-```bash
-$ git@github.com:thetribeio/template-ts-tdd.git
-$ mv template-ts-tdd template
-$ cd template
-```
-
-- Installer les dépendances
+- Installez les dépendances
 
 ```bash
 $ yarn install
@@ -35,7 +29,7 @@ $ yarn generate day01
 
 - Placer les données des problèmes posés dans le fichier `input.txt`.
 
-- Faites tournervotre solution
+- Faites tourner votre solution
 
 ```bash
 $ yarn start day01
@@ -43,7 +37,7 @@ $ yarn start day01
 
 ## Commandes
 
-- Créez un sous-dossier
+- Créer un sous-dossier
 
 ```bash
 $ yarn generate day01
@@ -58,10 +52,10 @@ $ yarn start day01
 - Lancer les tests
 
 ```bash
-$ yarn test day01        # Une seul fois
+$ yarn test day01
 ```
 
-- Tests lint et typage
+- Tests lint et typescript
 
 ```bash
 $ yarn lint
