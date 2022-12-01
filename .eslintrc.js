@@ -18,7 +18,7 @@ module.exports = {
         // Typescript
         '@typescript-eslint/no-inferrable-types': ['error', { ignoreParameters: true }],
         '@typescript-eslint/no-shadow': 'error',
-        '@typescript-eslint/no-unused-vars': ['error'],
+        '@typescript-eslint/no-unused-vars': ['warning'],
         '@typescript-eslint/no-use-before-define': [1],
         // Global
         'import/extensions': ['error', 'ignorePackages', { js: 'never', ts: 'never', tsx: 'never' }],
