@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
+    "gen": "yarn generate",
     "generate": "cp -r dayTemplate",
     "lint": "eslint '*/**/*.{js,json,ts}'",
     "lint:fix": "eslint --fix --ext .js,.ts .",

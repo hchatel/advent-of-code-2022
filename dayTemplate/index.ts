@@ -6,8 +6,9 @@ import { readInput } from '../utils/readFile';
 // Problem input and test inputs
 // ------------------------------
 
-export const TEST_INPUT = ``;
-export const INPUT = readInput(path.resolve(__dirname, './input.txt'));
+type Input = string[];
+export const TEST_INPUT: Input = ``.split('\n');
+export const INPUT: Input = readInput(path.resolve(__dirname, './input.txt')).split('\n');
 
 // -------------------
 // Your functions here
