@@ -23,7 +23,7 @@ export const detectMarker = (input: string, consecutiveNb = 4): number => {
         if (map[newChar]) {
             map[newChar] += 1;
         } else {
-            map[newChar] = 1;map[newChar]
+            map[newChar] = 1;
             differentChars += 1;
         }
         // Remove oldest char
@@ -57,3 +57,4 @@ const solve2 = (): string | number => detectMarker(INPUT, 14);
 // 1702
 
 solveWithLogs(solve2, 2);
+// 3559
