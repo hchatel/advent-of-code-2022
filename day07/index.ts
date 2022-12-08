@@ -98,8 +98,7 @@ const findSmallestDirToDelete = (dir: Directory, spaceNeeded: number): number | 
         ? null
         : Math.min(
             dir.size,
-            ...Object
-                .values(dir.subfolders)
+            ...Object.values(dir.subfolders)
                 .map((node) => findSmallestDirToDelete(node, spaceNeeded))
                 .filter((s) => s),
          );

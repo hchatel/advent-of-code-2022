@@ -1,3 +1,5 @@
+import util from 'util';
+
 export const solveWithLogs = (solver, index) => {
     console.log(`\n### Solve problem ${index}...`);
 
@@ -11,3 +13,5 @@ export const solveWithLogs = (solver, index) => {
 
     console.info('\n');
 };
+
+export const displayDeepObject = (object, depth = null) => util.inspect(object, true, depth);
